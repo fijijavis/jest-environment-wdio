@@ -1,6 +1,5 @@
 # jest-environment-wdio
 
-[![Build Status][build-badge]][build]
 [![version][version-badge]][package]
 [![MIT License][license-badge]][license]
 
@@ -69,8 +68,6 @@ Alias for findElements
 
 From here the WDIO v5 API [documentation](https://webdriver.io/docs/api.html) takes over.
 
-[build-badge]: https://img.shields.io/travis/fijijavis/jest-environment-wdio.svg?style=flat-square
-[build]: https://travis-ci.org/fijijavis/jest-environment-wdio
 [version-badge]: https://img.shields.io/npm/v/jest-environment-wdio.svg?style=flat-square
 [package]: https://www.npmjs.com/package/jest-environment-wdio
 [license-badge]: https://img.shields.io/npm/l/jest-environment-wdio.svg?style=flat-square
