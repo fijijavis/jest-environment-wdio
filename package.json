@@ -1,0 +1,36 @@
+{
+  "name": "jest-environment-wdio",
+  "version": "0.1.0",
+  "description": "Jest environment for running WebDriverIO tests",
+  "main": "./src/index.js",
+  "author": "Jim Davis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fijijavis/jest-environment-wdio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fijijavis/jest-environment-wdio/issues"
+  },
+  "homepage": "https://github.com/fijijavis/jest-environment-wdio#readme",
+  "contributors": [
+    "Jim Davis"
+  ],
+  "keywords": [
+    "jest",
+    "environment",
+    "webdriverio",
+    "wdio"
+  ],
+  "dependencies": {
+    "jest-environment-node": "^24.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "jest": "^24.7.1"
+  },
+  "peerDependencies": {
+    "webdriverio": "^5.7.15"
+  }
+}
