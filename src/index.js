@@ -23,7 +23,7 @@ class WdioEnvironment extends NodeEnvironment {
 
   async teardown() {
     if (this.wdio) {
-      this.wdio.deleteSession
+      this.wdio.deleteSession()
     }
 
     await super.teardown()
